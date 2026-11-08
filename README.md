@@ -80,9 +80,12 @@ $ termux-style
 
 ### D2Coding Nerd Font
 
-`D2Coding-Nerd-Font-Mono` is the regular, monospaced D2Coding ligature font
+`D2Coding-Nerd-Font` is the regular-weight D2Coding ligature font
 from [Nerd Fonts v3.5.1](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/D2Coding.zip)
-(`D2KodingLigatureNerdFontMono-Regular.ttf`). It supports Korean and Nerd Fonts icons.
+(`D2KodingLigatureNerdFont-Regular.ttf`). It supports Korean and Nerd Fonts icons.
+This variant preserves Korean characters at twice the width of Latin characters.
+The Mono variant in this release gives Korean characters the same advance width
+as Latin characters, which can cause stretched or overlapping Korean text in Termux.
 After running `./install` (or reinstalling an existing installation), select it
 from the **Fonts** menu in `termux-style`.
 
