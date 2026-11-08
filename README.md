@@ -61,7 +61,7 @@ $ termux-style
     [*] By- Aditya Shakya // adi1090x
 
     [C] Colors (89)
-    [F] Fonts (20)
+    [F] Fonts (21)
     [R] Random
     [I] Import
     [A] About
@@ -73,10 +73,21 @@ $ termux-style
 ### Features
 
 + 90 popular color-schemes.
-+ 20 powerline patched fonts.
++ 21 powerline patched fonts.
 + Randomly change color-schemes.
 + Import color-schemes from *local file* or *file URL*.
 + Set colors and fonts in place.
+
+### D2Coding Nerd Font
+
+`D2Coding-Nerd-Font-Mono` is the regular, monospaced D2Coding ligature font
+from [Nerd Fonts v3.5.1](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/D2Coding.zip)
+(`D2KodingLigatureNerdFontMono-Regular.ttf`). It supports Korean and Nerd Fonts icons.
+After running `./install` (or reinstalling an existing installation), select it
+from the **Fonts** menu in `termux-style`.
+
+The font is licensed under the SIL Open Font License 1.1; see
+[`licenses/D2Coding/OFL.txt`](licenses/D2Coding/OFL.txt).
 
 ### Use Import
 ```bash

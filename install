@@ -80,6 +80,7 @@ install_tstyle () {
 	# Coping files
 	{ echo "    ${BLUE}[${RED}*${BLUE}] ${ORANGE}Coping files in ${GREEN}$PREFIX/share ${ORANGE}directory..."${BLUE}; }
 	{ mkdir $PREFIX/share/termux-style; cp -r $DIR/colors $PREFIX/share/termux-style; cp -r $DIR/fonts $PREFIX/share/termux-style; cp -r $DIR/tstyle $PREFIX/share/termux-style; }
+	cp -r "$DIR/licenses" "$PREFIX/share/termux-style"
 	{ chmod +x $PREFIX/share/termux-style/tstyle; ln -s $PREFIX/share/termux-style/tstyle $PREFIX/bin/termux-style; }
 
 	# Verify files 
